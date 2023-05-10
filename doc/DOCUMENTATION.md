@@ -17,8 +17,8 @@ link : [<FrameBuffer.hpp>](https://github.com/EpitechPromo2026/B-OOP-400-BDX-4-1
 
 Then, we will need a `arcade::Pixel`, that has a **bool up**, it will show if
 the pixel was updated or not to be able to not draw it again if it was not
-updated, a **fg**, to print a color to the character (between 0 and 127), a **bg
-**, to print a color to the background (between 0 and 127) and a `char c` that
+updated, a **fg**, to print a color to the character (between 0 and 127), a **bg**,
+to print a color to the background (between 0 and 127) and a `char c` that
 is an enum of `arcade::Character` (you can find it in
 the [<Enum.hpp>](https://github.com/EpitechPromo2026/B-OOP-400-BDX-4-1-arcade-melissa.laget/blob/main/interfaces/Enum.hpp)) <br>
 
@@ -28,12 +28,12 @@ Be careful, the size of the vector **has** to be equal to `width * height` <br>
 
 You will also need a `arcade::STATUS`, that is an enum of four things:
 
-* **exit**, exit the project
-* **failure**, exit the project without clearing anything
-* **running**, continue to run
+* **exit**, exit the project <br>
+* **failure**, exit the project without clearing anything <br>
+* **running**, continue to run <br>
 * **option**, call the `option` function in the current game. <br>
-  You can find it in
-  the [<Enum.hpp>](https://github.com/EpitechPromo2026/B-OOP-400-BDX-4-1-arcade-melissa.laget/blob/main/interfaces/Enum.hpp))
+
+You can find it in the [<Enum.hpp>](https://github.com/EpitechPromo2026/B-OOP-400-BDX-4-1-arcade-melissa.laget/blob/main/interfaces/Enum.hpp)
 
 You will then need a `arcade::EVENT` that is an enum of all the possible events,
 you can find it in
@@ -64,7 +64,7 @@ pair
 ignored
 &emsp;&emsp; - `QUIT`, go back to menu second pair argument is ignored
 You can find it in
-the [<Enum.hpp>](https://github.com/EpitechPromo2026/B-OOP-400-BDX-4-1-arcade-melissa.laget/blob/main/interfaces/Enum.hpp))
+the [<Enum.hpp>](https://github.com/EpitechPromo2026/B-OOP-400-BDX-4-1-arcade-melissa.laget/blob/main/interfaces/Enum.hpp)
 
 To finish, you need a `arcade::LibType` that is an enum, it is used to know if
 the lib is a game, by using `GAME` or a graphical, by using `GRAPHICAL`. It is

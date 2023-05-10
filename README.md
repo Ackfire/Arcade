@@ -25,6 +25,9 @@ An output you can get from this program can be:
 
 ![gameplay.png](assets/screenshot_game.png)
 
+To see how you can implement your own game, you can go see that documentation:
+[Documentation for implementation](doc/DOCUMENTATION.md)
+
 Here are the different **tools** and **languages** we used to make this project: :hammer_and_wrench:
 
 [![Main tools](https://skillicons.dev/icons?i=cpp,idea,github,md&perline=9)](https://github.com/tandpfun/skill-icons)
