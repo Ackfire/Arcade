@@ -54,16 +54,16 @@ character, it is include in
 the [<Enum.hpp>](https://github.com/Ackfire/Arcade/blob/main/interfaces/Enum.hpp) <br>
 
 You will also need `arcade::Option`, it is only used by a `std::pair` containing
-the enum option and a string as arguments
-It is an enum with those options:
+the enum option and a string as arguments <br>
+It is an enum with those options: <br>
 &emsp;&emsp; - `LOAD_GRAPH`, loads a new graphical library from the path given
-in the pair
+in the pair <br>
 &emsp;&emsp; - `LOAD_GAME`, loads a new game library from the path given in the
-pair
+pair <br>
 &emsp;&emsp; - `RESTART`, restart the current game, second pair argument is
-ignored
+ignored <br>
 &emsp;&emsp; - `QUIT`, go back to menu second pair argument is ignored
-You can find it in
+You can find it in <br>
 the [<Enum.hpp>](https://github.com/Ackfire/Arcade/blob/main/interfaces/Enum.hpp)
 
 To finish, you need a `arcade::LibType` that is an enum, it is used to know if
