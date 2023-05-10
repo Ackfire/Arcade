@@ -63,8 +63,7 @@ pair <br>
 &emsp;&emsp; - `RESTART`, restart the current game, second pair argument is
 ignored <br>
 &emsp;&emsp; - `QUIT`, go back to menu second pair argument is ignored
-You can find it in <br>
-the [<Enum.hpp>](https://github.com/Ackfire/Arcade/blob/main/interfaces/Enum.hpp)
+You can find it in the [<Enum.hpp>](https://github.com/Ackfire/Arcade/blob/main/interfaces/Enum.hpp)
 
 To finish, you need a `arcade::LibType` that is an enum, it is used to know if
 the lib is a game, by using `GAME` or a graphical, by using `GRAPHICAL`. It is
