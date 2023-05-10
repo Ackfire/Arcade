@@ -12,8 +12,10 @@ The goal of this project was to create an **Arcade** in **C++** with the **SFML,
 ### Running the project locally
 
 * Clone this repository locally
-* Run `make` in your bash / command line
-* Run `./my_rpg`
+* Create a folder `build` at the root of the repository
+* Go in it and run the command `cmake ..`
+* Then you can do a `make`
+* And run `./arcade`
 
 To try this program, you can to use this **command** to automatically play the game and when you quit it, clean the repository: <br>
 
