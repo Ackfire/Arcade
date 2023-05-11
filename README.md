@@ -17,6 +17,13 @@ The goal of this project was to create an **Arcade** in **C++** with the **SFML,
 * Then you can do a `make`
 * And run `./arcade`
 
+<br>
+
+> **Warning**
+> Make sure the Ncurses, SFML and SDL2 libraries are installed or the program won't work.
+
+<br>
+
 To try this program, you can to use this **command** to automatically play the game and when you quit it, clean the repository: <br>
 
 ```bash
